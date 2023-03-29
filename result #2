@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/art.jpg" width="150">
+    <h1>Полянский Кирилл</h1>
+        <p>я студент, обучаюсь html, <strong>очень успешно</strong>, <em>получаю хороший результат</em>.<br></p>
+        
+        <a href="http://vk.com" target="_blank">vk</a> | <a href="http://telegram.org" target="_blank"">telegram</a>
+
+</body>
+</html>
