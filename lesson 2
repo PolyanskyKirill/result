@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="shop, marketplace">
+    <meta name="discription" content="этот сайт будет про онлайн магазин"
+         <title>shop1</title>
+</head>
+<body>
+    <h1>onlineshop</h1>
+    <h2>onlineshop</h2>
+    <h3>onlineshop</h3>
+    <h4>onlineshop</h4>
+    <h5>onlineshop</h5>
+    <h6>onlineshop</h6>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Error maiores odio doloribus <strong><em>eveniet tenetur veritatis</em></strong> 
+        voluptatibus facilis reiciendis mollitia earum?</p>    
+<hr>    
+        Lorem, <em>ipsum dolor sit amet consectetur adipisicing elit.</em> <br><br><br> Dolorum optio omnis provident nostrum eveniet, ducimus sint dolores incidunt quo architecto!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, cupiditate. Nam ipsa magnam nostrum neque. Animi totam maxime at quisquam?
+        <h1>Полянский Кирилл</h1>
+        <p>я студент, обучаюсь html, <strong>очень успешно</strong>, <em>получаю хороший результат</em>.<br></p>
+
+    
+</body>
+</html>
