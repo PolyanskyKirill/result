@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/art.jpg" width="200" alt="это аватарка">
+    <h1>Полянский Кирилл</h1>
+        <p>я студент, обучаюсь html, <strong>очень успешно</strong>, <em>получаю хороший результат</em>.<br></p>
+        <h2>Список соц сетей</h2>
+        <a href="http://vk.com" target="_blank">vk</a> | <a href="http://telegram.org" target="_blank"">telegram</a>
+        <h1>Мои Хобби</h1>
+        <ol>
+        <li>Путешестовать</li>
+        <li>Играть в футбол</li>
+        <li>Ходить в зал</li>
+        <li>Играть в компьютер</li>
+        <li>Читать новости</li>
+    </ol>
+</body>
+</html>
