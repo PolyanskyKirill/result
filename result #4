@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+<style>
+.header {
+    border-bottom: 2px solid red;
+}
+.card {
+    background-color: #bbb;
+    padding: 10px
+    margin-bottom 10px
+
+}
+.color {
+    color: red;
+}
+</style>
+
+</head>
+<body>
+    <h1>Site</h1>
+</div>
+<div id="header" class="header">
+    <h2>головное</h2>
+             </div>
+
+    <div id="navigation" class="card">
+<ul>
+    <li><a href="#">Inem 1</a></li>
+    <li><a href="#">Inem 2</a></li>
+    <li><a href="#">Inem 3</a></li>
+</ul>
+<section>
+</article>
+    <article id="Block1" class="card header">
+      <h3>Block1</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, modi?</p>
+                    </article>
+                </article>
+                <article id="Block2" class="card">
+                  <h3>Block1</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, modi?</p>
+                                </article>
+                                                        <article id="Block3" class="card">
+                              <h3>Block3</h3>
+                              <p>Lorem ipsum, <span class="color">dolor sit amet consectetur adipisicing elit.</span> Nesciunt, modi?</p>
+                                            </article>
+                                         </section>
+                                                <hr>
+<futer id="futer">
+<h3>Мои контакты</h3>
+                                                <ul>
+    <li>Instagram</li>
+    <li>telegram</li>
+    <li>Vk</li>
+</ul>
+</futer>
+                                            </div>
+                                            <span class=""></span>
+</body>
+</html>
