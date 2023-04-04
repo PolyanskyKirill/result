@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Code</title>
+    <link rel="stylesheet" href="01.selectors.css"
+        </head>
+<body>
+<header id="header" style="border: 1px solid blue">
+<h2>все будет четенько</h2>
+<div class="card html">
+<h3>HTML</h3>
+<p>приложение к договору №1 договора подряда</p>
+</div>
+<div class="card css">
+<h3>CSS</h3>
+<p>приложение к договору №1 договора подряда</p>
+</div>
+</header>
+</body>
+</html>
+
+CSS 
+/* * {
+    color: red;
+} относится ко всем пунктам */
+
+h2 {
+    color: red;
+}
+body {
+    background: aqua;
+}
+/* padding - отступы
+backgrpund - задний цвет
+margin-bottom - нижний отступ */
+.card {
+    padding: 10px;
+    background: wheat;   
+    margin-bottom: 10px;  
+}
+/* front-size это размер выбраного элемента */
+.card p {
+font-size: 17px;
+}
+.html {
+    background: yellowgreen;
+    color: blueviolet;
+}
+.css {
+    background: orange;
+    color: white;
+}
+
+#header {
+    background: blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#header, .card {
+    margin-bottom: 20px;
+}
