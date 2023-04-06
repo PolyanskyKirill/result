@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Course</title>
+    <style>
+body {
+    background-color: rgb(213, 216, 23);
+}
+
+    </style>
+    <link rel="stylesheet" href="01.selectors.css">
+    <link rel="stylesheet" href="03.colors.css"
+</head>
+<body>
+    <header id="header">
+        <h2>работаем</h2>
+        </header>
+
+        <div class="card html">
+            <h2>html></h2>
+            <p> Все что я сделаю, все к лучшему, поэтому продолжаем работать </p>
+        </div>
+        <div class="card css">
+            <h2>css</h2>
+            <p> Все что я сделаю, все к лучшему, поэтому продолжаем работать </p>
+        </div>
+        <div class="cardcolor">
+            <h2>color</h2>
+
+        <h3 class="color-1"> Color 1</h3>
+        <h3 class="color-2"> Color 2</h3>
+        <h3 class="color-3"> Color 3</h3>
+        <h3 class="color-4"> Color 4</h3>
+        <h3 class="color-5"> Color 5</h3>
+        </div>    
+        
+</body>
+</html>
+
+
+
+.color-1 {
+    color:crimson;
+}
+/* тут использеутся 16 ричная система шифр 
+RGB цвета отвечают по списку RedGreenBlue от 00 до ff*/
+.color-2 {
+    color: #000000
+}
+
+.color-3 {
+    color:#ddd  
+}
+
+.color-4 {
+    color:rgb(255, 0, 255)
+    обасшен: 0.2;
+}
+/* тут числа варируются от 0 до 255 */
+
+.color-5 {
+    color: rgba(red, green, blue, alpha)
+}
