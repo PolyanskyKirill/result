@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Course</title>
+    <style>
+        body {
+            background-color: rgb(213, 216, 23);
+        }
+    </style>
+    <link rel="stylesheet" href="01.selectors.css">
+    <link rel="stylesheet" href="03.colors.css">
+    <link rel="stylesheet" href="04.border.css"> 
+    <link rel="stylesheet" href="05.linksandbuttons.css">
+    <link rel="stylesheet" href="06.lists.css">
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="">item 1</a></li>
+            <li><a href="">item 2</a></li>
+            <li><a href="">item 3</a></li>
+            <li><a href="">item 4</a></li>
+            <li><a href="">item 5</a></li>
+        </ul>
+    </nav>
+    <header id="header">
+        <h2>работаем</h2>
+    </header>
+
+    <div class="card html">
+        <h2>html></h2>
+        <p> Все что я сделаю, все к лучшему, поэтому продолжаем работать </p>
+    </div>
+    <div class="card css">
+        <h2>css</h2>
+        <p> Все что я сделаю, все к лучшему, поэтому продолжаем работать </p>
+    </div>
+            <div class="card">
+                <h2>list and table</h2>
+            <ul class="list">
+                <li></li>
+                <li>Lorem, ipsum.</li>
+                <li>Non, dicta?</li>
+                <li>Sed, aspernatur?</li>
+                <li>Dolore, provident.</li>
+                <li>Voluptas, quasi?</li>
+            </ul>
+    </div>
+        <table class="table">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+    <div class="cardcolor">
+        <h2>color</h2>
+
+        <h3 class="color-1"> Color 1</h3>
+        <h3 class="color-2"> Color 2</h3>
+        <h3 class="color-3"> Color 3</h3>
+        <h3 class="color-4"> Color 4</h3>
+        <h3 class="color-5"> Color 5</h3>
+    </div>
+    <div class="card">
+        <h2>links and buttons</h2>
+        <p> <a href="#"> это очень важная ссылка </a> </p>
+
+        <p>
+            <button class="btn"> кнопка тык</button>
+        </p>
+    </div>
+
+    <div class="card">
+
+        <h1>border</h1>
+
+        <p class="border-1">Lorem ipsum dolor sit amet.</p>
+        <p class="border-2">Lorem ipsum dolor sit amet.</p>
+        <p class="border-3">Lorem ipsum dolor sit amet.</p>
+
+        <div class="circle"></div>
+
+    </div>
+
+    
+</body>
+
+</html>
+
+
+
+
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table td:hover {
+    background: #706c6c;
+}
+
+/* .table tr:nth-child(eveb) {
+    background: #eee;
+} */
+
+.table tr:nth-child(odd) {
+    background: #eee;
+}
+
+.table td:nth-child(2), .table td:nth-child(4) {
+    background: #fffeee;
+}
+
+.navbar {
+    background: lightcoral;
+    /* padding: 10px 20px; */
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style: nont;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.navbar ul li:hover {
+    background: #706c6c;
+}
+
+.navbar ul li:list-child {
+    margin-right: 0;
+}
